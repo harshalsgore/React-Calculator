@@ -1,6 +1,5 @@
 // File imports for the calculator application
 import { evaluate } from "mathjs";
-import Navbar from "./Navbar"; // importing Navbar component
 import "../styles/calc.css"; // importing styles for the calculator
 import Buttons from "./Button"; // importing Buttons component
 import { useState } from "react"; // importing React hook for state management
@@ -65,8 +64,8 @@ function App() {
   // Render the Navbar, Result, and Buttons components
   return (
     <div>
-      <Navbar />
       <div className="myCalculator">
+        <h1>CALCULATOR</h1>
         <Result result={result} />
         <Buttons Buttonclicked={handleclicks} />
       </div>

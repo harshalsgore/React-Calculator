@@ -1,10 +1,15 @@
 .myCalculator {
   width: 315px;
   margin: auto;
+  margin-top: 4%;
   padding: 20px;
   background-color: black;
   font-family: "Orbitron", sans-serif;
-  border-radius: 10px;
+  border-radius: 30px;
+}
+.myCalculator h1 {
+  color: white;
+  margin-left: 50px;
 }
 .buttons {
   display: inline-block;
