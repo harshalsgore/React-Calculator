@@ -1,0 +1,12 @@
+.nav {
+  width: 23vw;
+  margin: auto;
+  background-color: black;
+  box-shadow: 0 0 2px 3px #878787;
+  border-radius: 10px;
+}
+.nav h1 {
+  /* text-shadow: 2px 2px #dadada; */
+  color: white;
+  text-align: center;
+}
